@@ -1,7 +1,7 @@
 # CYBR506
 STEP 1:
 -	In your computer, navigate to folder where you have the freeradius folder downloaded and copy the folder’s path. 
-#STEP 2:
+STEP 2:
 -	In your system, open a cmd terminal window and use the appropriate commands (example below) to navigate to the freeradius directory and begin the image and container build process:
 
 cd C:\User\Name\Documents\freeradius
