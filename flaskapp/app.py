@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configure RADIUS server details
 RADIUS_SERVER = '172.17.0.2'
-RADIUS_SECRET = b'radius_secret'
+RADIUS_SECRET = b'not_so_radius_secret'
 dictionary = Dictionary("dictionary")
 # Configure Flask secret key for session
 app.secret_key = 'your_secret_key'
