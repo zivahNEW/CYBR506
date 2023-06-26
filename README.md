@@ -93,6 +93,7 @@ o	app/app.py
 STEP 12:
 -	On your computer, open a new web browser window and navigate to:
 http://127.0.0.1:5000
+
 STEP 12.1: FOLLOW IF YOU ARE TESTING MAY’s LAB:
 -	In the boxes type in the May’s username and password:
 -	Username: may
