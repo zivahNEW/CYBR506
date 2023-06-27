@@ -19,8 +19,8 @@ def authenticate(username, password):
 
     # Create an Access-Request packet
     req = client.CreateAuthPacket(code=packet.AccessRequest)
-    req['Ewdavid'] = username
-    req['roland'] = password
+    req['User-Name'] = username
+    req['User-Password'] = password
 
     # Send the packet to the RADIUS server
     reply = client.SendPacket(req)
